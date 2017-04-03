@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ThibaultQuiquet</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+    }
+    </style>
+
+   
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">IF</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="../index.html">ACCUEIL</a>
+                    </li>
+                    <li>
+                        <a href="index.html">BITCOIN</a>
+                    </li>
+                    <li>
+                        <a href="explorer/index.html">EXPLORER</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+     <h2>WS</h2>
+  <p>Toutes les infos</p>                  
+
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">WS /info          e</button>
+<div id="demo" class="collapse">
+    {<br/>
+    "version": 130000,<br/>
+    "protocolversion": 70014,<br/>
+    "blocks": 447078,<br/>
+    "timeoffset": 0,<br/>
+    "connections": 86,<br/>
+    "proxy": "",<br/>
+    "difficulty": 317688400354.0338,<br/>
+    "testnet": false,<br/>
+    "paytxfee": 0,<br/>
+    "relayfee": 0.00001,<br/>
+    "errors": ""<br/>
+    }<br/>
+</div>
+   <br/>
+
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo1">WS /blockchaininfo</button>
+<div id="demo1" class="collapse1">
+    {<br/>
+    "chain": "main",<br/>
+    "blocks": 447078,<br/>
+    "headers": 447078,<br/>
+    "bestblockhash": "00000000000000000118a83543869588818ad830bd06143f1af83af45b204395",<br/>
+    "difficulty": 317688400354.0338,<br/>
+    "mediantime": 1483814129,<br/>
+    "verificationprogress": 0.9999993211340604,<br/>
+    "chainwork": "0000000000000000000000000000000000000000003729e37de57b7b3f915c12",<br/>
+    "pruned": false,<br/>
+    "softforks": [<br/>
+        {<br/>
+            "id": "bip34",<br/>
+            "version": 2,<br/>
+            "enforce": {<br/>
+                "status": true,<br/>
+                "found": 1000,<br/>
+                "required": 750,<br/>
+                "window": 1000<br/>
+            },<br/>
+            "reject": {<br/>
+                "status": true,<br/>
+                "found": 1000,<br/>
+                "required": 950,<br/>
+                "window": 1000<br/>
+            }<br/>
+        },<br/>
+        {<br/>
+            "id": "bip66",<br/>
+            "version": 3,<br/>
+            "enforce": {<br/>
+                "status": true,<br/>
+                "found": 1000,<br/>
+                "required": 750,<br/>
+                "window": 1000<br/>
+            },<br/>
+            "reject": {<br/>
+                "status": true,<br/>
+                "found": 1000,<br/>
+                "required": 950,<br/>
+                "window": 1000<br/>
+            }<br/>
+        },<br/>
+        {<br/>
+            "id": "bip65",<br/>
+            "version": 4,<br/>
+            "enforce": {<br/>
+                "status": true,<br/>
+                "found": 1000,<br/>
+                "required": 750,<br/>
+                "window": 1000<br/>
+            },<br/>
+            "reject": {<br/>
+                "status": true,<br/>
+                "found": 1000,<br/>
+                "required": 950,<br/>
+                "window": 1000<br/>
+            }<br/>
+        }<br/>
+                ],<br/>
+            "bip9_softforks": {<br/>
+        "csv": {<br/>
+            "status": "active",<br/>
+            "startTime": 1462060800,<br/>
+            "timeout": 1493596800<br/>
+        }<br/>
+    }<br/>
+</div>
+   <br/>
+
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo2">WS /mininginfo</button>
+<div id="demo2" class="collapse2">
+   {<br/>
+    "blocks": 447077,<br/>
+    "currentblocksize": 0,<br/>
+    "currentblockweight": 0,<br/>
+    "currentblocktx": 0,<br/>
+    "difficulty": 317688400354.0338,<br/>
+    "errors": "",<br/>
+    "networkhashps": 2159845049756753000,<br/>
+    "pooledtx": 18752,<br/>
+    "testnet": false,<br/>
+    "chain": "main"<br/>
+    }<br/>
+</div>
+   <br />
+
+ <div class="btn btn-info">
+     <a href="http://bitcoin.mubiz.com/peerinfo" rel="nofollow" target="_blank">WS / Peerinfo</div></a>
+</div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
